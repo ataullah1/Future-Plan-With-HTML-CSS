@@ -180,13 +180,13 @@ footer > .f_container {
   display: flex;
   justify-content: space-between;
 }
+footer > .f_container > .f_left {
+  width: 50%;
+}
 footer > .f_container > .f_left h2 {
   color: #f8f8f8;
 }
 
-footer > .f_container > .f_left {
-  width: 50%;
-}
 footer > .f_container > .f_left p {
   color: #fff;
   font-family: Work Sans;
@@ -194,7 +194,7 @@ footer > .f_container > .f_left p {
   font-style: normal;
   font-weight: 400;
   line-height: 26px; /* 162.5% */
-  margin-bottom: 20px;
+  padding: 20px 0;
 }
 footer > .f_container > .f_left img {
   height: 46px;
