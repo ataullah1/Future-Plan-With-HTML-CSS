@@ -1,0 +1,242 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;600;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: 'Work Sans', sans-serif;
+}
+h2 {
+  color: black;
+  font-family: Work Sans;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+button {
+  border-radius: 5px;
+  background: #fff;
+  padding: 20px;
+  border: none;
+  color: #005fac;
+  font-family: Work Sans;
+  font-size: 20px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: 0.3s;
+}
+/* Start Header style-========= */
+
+body > header {
+  width: 100%;
+  max-width: 1600px;
+  height: 100vh;
+  background: url('../images/banner/banner3.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#header_container {
+  width: 75%;
+  height: 100%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: right;
+}
+#header_container > div {
+  width: 45%;
+  padding-left: 10px;
+}
+#header_container > div > h1 {
+  color: #fff;
+  font-size: 65px;
+  font-weight: 700;
+  line-height: normal;
+}
+
+#header_container > div > p {
+  color: #fff;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px; /* 162.5% */
+  padding: 24px 0 30px;
+}
+
+#header_container > div > button:hover {
+  transform: translateX(-10px);
+}
+/* Start Main style ======================= */
+
+/* Section One style start======= */
+
+main > #section_one {
+  width: 71%;
+  margin: 140px auto 130px;
+  display: flex;
+  gap: 5%;
+  align-items: center;
+}
+main > #section_one div {
+  width: 45%;
+}
+main > #section_one > .s_o_img img {
+  width: 100%;
+}
+main > #section_one > .s_o_text {
+  padding-right: 50px;
+}
+
+main > #section_one > .s_o_text > p {
+  color: #444343;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px; /* 162.5% */
+  padding: 20px 0 15px;
+}
+main > #section_one > .s_o_text > ul li {
+  list-style: none;
+  color: #444343;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px; /* 162.5% */
+}
+main > #section_one > .s_o_text > ul li i {
+  color: #16d887;
+}
+
+/* Section Two style start=========== */
+
+main > #section_two {
+  width: 71%;
+  margin: auto;
+}
+main > #section_two > h2 {
+  text-align: center;
+  padding-bottom: 50px;
+}
+main > #section_two > .plan {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+}
+main > #section_two > .plan > div > img {
+  width: 92.958px;
+  height: 92.958px;
+}
+main > #section_two > .plan > div > h3 {
+  color: #151414;
+  font-size: 30px;
+  font-weight: 700;
+  padding: 20px 0 15px;
+}
+main > #section_two > .plan > div > p {
+  color: #737272;
+  font-size: 25px;
+  font-weight: 500;
+}
+
+main > #section_two > .contact {
+  height: 300px;
+  margin: 130px auto 130px;
+  background: linear-gradient(90deg, #005fac 0%, rgba(0, 95, 172, 0) 100%),
+    url('../images/watch.png');
+  background-size: cover;
+  border-radius: 8px;
+  padding: 60px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+main > #section_two > .contact > h2 {
+  width: 459px;
+  color: white;
+  padding-bottom: 20px;
+}
+
+main > #section_two > .contact > button {
+  width: 160px;
+}
+
+main > #section_two > .contact > button:hover {
+  transform: translateX(10px);
+}
+
+/* Start footer style========== */
+
+footer {
+  background-color: #151414;
+}
+
+footer > .f_container {
+  width: 71%;
+  margin: auto;
+  padding: 131px 0;
+  display: flex;
+  justify-content: space-between;
+}
+footer > .f_container > .f_left h2 {
+  color: #f8f8f8;
+}
+
+footer > .f_container > .f_left {
+  width: 50%;
+}
+footer > .f_container > .f_left p {
+  color: #fff;
+  font-family: Work Sans;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px; /* 162.5% */
+  margin-bottom: 20px;
+}
+footer > .f_container > .f_left img {
+  height: 46px;
+  cursor: pointer;
+}
+footer > .f_container > .f_right {
+  /* background-color: #16d887; */
+  width: 30%;
+}
+footer > .f_container > .f_right h3 {
+  color: #fff;
+  font-size: 25px;
+  font-weight: 600;
+}
+footer > .f_container > .f_right input {
+  border-radius: 8px;
+  width: 100%;
+  border: 1px solid #fff;
+  padding: 20px;
+  margin: 31px 0 15px;
+  color: #f3f3f3;
+  background-color: #151414;
+  font-family: Work Sans;
+  font-size: 18px;
+  font-weight: 400;
+}
+footer > .f_container > .f_right button {
+  background: #005fac;
+  color: white;
+}
+footer > .f_container > .f_right button:hover {
+  transform: translateX(10px);
+}
+
+footer > small {
+  display: block;
+  color: white;
+  text-align: center;
+  font-size: 16px;
+  font-style: italic;
+  padding: 8px 0;
+}
+footer > small > span {
+  color: rgb(252, 0, 130);
+}
