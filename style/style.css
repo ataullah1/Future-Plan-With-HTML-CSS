@@ -197,7 +197,12 @@ footer > .f_container > .f_left p {
 footer > .f_container > .f_left img {
   height: 46px;
   cursor: pointer;
+  margin: 10px 5px 0 0;transition: .3s;
 }
+footer > .f_container > .f_left img:hover {
+  transform: scale(1.2);
+}
+
 footer > .f_container > .f_right {
   /* background-color: #16d887; */
   width: 30%;
@@ -237,4 +242,55 @@ footer > small {
 }
 footer > small > span {
   color: rgb(252, 0, 130);
+}
+
+/* Version 2.0 Style =================== ======= */
+
+header > .version {
+  display: flex;
+  justify-content: end;
+  padding: 20px 10px 0 0;
+  gap: 5px;
+}
+header > .version > p > a {
+  color: white;
+  font-weight: bolder;
+  padding: 10px 15px;
+  background-color: tomato;
+  border-radius: 10px;
+  transition: 0.3s;
+}
+header > .version > p > a:hover {
+  background-color: rgb(117, 22, 5);
+}
+
+body > .version2_header {
+  background: url('../images/banner/banner2.png');
+}
+
+body > .version2_header > #header_container > div > h1 {
+  color: #151414;
+}
+
+body > .version2_header > #header_container > div > p {
+  color: #444343;
+}
+body > .version2_header > #header_container > div > button {
+  background: #f15b22;
+  color: white;
+}
+
+body > .v2_section > #section_two > .contact {
+  background: linear-gradient(90deg, #f15b22 0%, rgba(241, 91, 34, 0) 100%),
+    url('../images/watch.png');
+}
+.footer_v2 > .f_container > .f_right button {
+  background: white;
+  color: #f15b22;
+}
+
+/*  Version 3.0 style============ */
+
+body > .version3_header {
+  background: url('../images/banner/banner1.png');
 }
